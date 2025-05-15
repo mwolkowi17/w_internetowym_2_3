@@ -1,0 +1,224 @@
+{
+  "assetRoot": "assets",
+  "totalSize": 12175640,
+  "assets": {
+    "image": {
+      "phaser_logo": { "file": "phaser_logo.png", "size": 377788 },
+      "plansza_start": { "file": "1_plansza_start.png", "size": 1469279 },
+      "przycisk_start": { "file": "START_przycisk.png", "size": 20770 },
+      "plansza_imie": { "file": "plansza_imie.png", "size": 597840 },
+      "przycisk_dalej_imie": {
+        "file": "przycisk_dalej_imie.png",
+        "size": 5610
+      },
+      "plansza_zasady_gry": {
+        "file": "plansza_zasady_gry.png",
+        "size": 551220
+      },
+      "plansza_poziom1_wybor": {
+        "file": "plansza_poziom1_wybor.png",
+        "size": 1595588
+      },
+      "poziom1_button": {
+        "file": "poziom1_button.png",
+        "size": 8755
+      },
+      "plansza_poziom1": {
+        "file": "plansza_poziom1.png",
+        "size": 1067347
+      },
+      "pionek1": {
+        "file": "pionek1.png",
+        "size": 7958
+      },
+      "zycie1": {
+        "file": "zycie1.png",
+        "size": 3606
+      },
+      "rzut_przycisk1": {
+        "file": "rzut_przycisk.png",
+        "size": 4529
+      },
+      "kostka_wyniki1": {
+        "file": "kostka_1oczko.png",
+        "size": 12315
+      },
+      "kostka_wyniki2": {
+        "file": "kostka_2oczka.png",
+        "size": 13570
+      },
+      "kostka_wyniki3": {
+        "file": "kostka_3oczka.png",
+        "size": 13664
+      },
+      "kostka_wyniki4": {
+        "file": "kostka_4oczka.png",
+        "size": 13947
+      },
+      "kostka_wyniki5": {
+        "file": "kostka_5oczek.png",
+        "size": 14091
+      },
+      "kostka_wyniki6": {
+        "file": "kostka_6oczek.png",
+        "size": 15005
+      },
+      "poziom2_button": {
+        "file": "poziom2_button.png",
+        "size": 9463
+      },
+      "pytanie1": {
+        "file": "pytanie1.png",
+        "size": 68983
+      },
+      "kratka": {
+        "file": "kratka.png",
+        "size": 576
+      },
+      "przycisk_sprawdz": {
+        "file": "sprawdź_odpwowiedz_button1.png",
+        "size": 3778
+      },
+      "zaznaczenie": {
+        "file": "krzyzyk1.png",
+        "size": 4158
+      },
+      "odpowiedz_dobra1": {
+        "file": "KOMUNIKAT_dobra_odp.png",
+        "size": 36730
+      },
+      "odpowiedz_zla1": {
+        "file": "KOMUNIKAT_zla_odp.png",
+        "size": 36730
+      },
+      "zasadzka": {
+        "file": "zasadzka.png",
+        "size": 36730
+      },
+      "zakonczenie_plansza": {
+        "file": "zakonczenie_gry_plansza.png",
+        "size": 47551
+      },
+      "przegrana_plansza": {
+        "file": "przegrana_plansza.png",
+        "size": 42536
+      },
+      "zakoncz_gre_przycisk": {
+        "file": "zakoncz_gre_button.png",
+        "size": 9219
+      },
+      "gram_jeszcze_przycisk": {
+        "file": "gram_jeszcze_raz_button.png",
+        "size": 9254
+      },
+      "pytanie2": {
+        "file": "pytanie2.png",
+        "size": 35411
+      },
+      "pytanie3": {
+        "file": "pytanie3.png",
+        "size": 36273
+      },
+      "pytanie4": {
+        "file": "pytanie4.png",
+        "size": 42729
+      },
+      "pytanie5": {
+        "file": "pytanie5.png",
+        "size": 41297
+      },
+      "pytanie6": {
+        "file": "pytanie6.png",
+        "size": 39128
+      },
+      "pytanie7": {
+        "file": "pytanie7.png",
+        "size": 40656
+      },
+      "pytanie8": {
+        "file": "pytanie8.png",
+        "size": 62555
+      },
+      "pytanie9": {
+        "file": "pytanie9.png",
+        "size": 36348
+      },
+      "pytanie10": {
+        "file": "pytanie10.png",
+        "size": 39326
+      },
+      "plansza_level2": {
+        "file": "8_plansza_poziom2.png",
+        "size": 1044645
+      },
+      "pytanie1_2": {
+        "file": "pytanie1_level2.png",
+        "size": 35411
+      },
+      "pytanie2_2": {
+        "file": "pytanie2_level2.png",
+        "size": 35411
+      },
+      "pytanie3_2": {
+        "file": "pytanie3_level2.png",
+        "size": 36273
+      },
+      "pytanie4_2": {
+        "file": "pytanie4_level2.png",
+        "size": 42729
+      },
+      "pytanie5_2": {
+        "file": "pytanie5_level2.png",
+        "size": 41297
+      },
+      "pytanie6_2": {
+        "file": "pytanie6_level2.png",
+        "size": 39128
+      },
+      "pytanie7_2": {
+        "file": "pytanie7_level2.png",
+        "size": 40656
+      },
+      "pytanie8_2": {
+        "file": "pytanie8_level2.png",
+        "size": 62555
+      },
+      "pytanie9_2": {
+        "file": "pytanie9_level2.png",
+        "size": 36348
+      },
+      "pytanie10_2": {
+        "file": "pytanie10_level2.png",
+        "size": 39326
+      },
+      "ruch_gracza": {
+        "file": "ruch_gracza.png",
+        "size": 2673
+      },
+      "ramka_button": {
+        "file": "ramka_button.png",
+        "size": 1069
+      },
+      "ramka_odpowiedz": {
+        "file": "zaznaczenie_odpowiedz_tab.png",
+        "size": 348
+      },
+      "ukonczenie_poziomu": {
+        "file": "ukonczenie_poziomu1.png",
+        "size": 49504
+      },
+      "gram_dalej": {
+        "file": "gram_dalej1.png",
+        "size": 49504
+      }
+    },
+    "audio": {
+      "sample": { "file": "music.mp3", "size": 3840768 },
+      "klik": { "file": "klik.mp3", "size": 4179 },
+      "dobra_odp": { "file": "Dobra_odp.mp3", "size": 77740 },
+      "zla_odp": { "file": "zla_odp.mp3", "size": 7523 },
+      "fanfary": { "file": "Fanfary_wygrana_gra.mp3", "size": 165120 },
+      "przegrana_gra": { "file": "przegrana_gra.mp3", "size": 56832 }
+    }
+  }
+}
