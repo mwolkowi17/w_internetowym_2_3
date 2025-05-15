@@ -3,6 +3,7 @@ interface quizz_pojedyncz {
   pytanie: string;
   odpowiedz: number;
   odpowiedz_text: any[][];
+  tresc: string;
 }
 
 export class Quests {
@@ -21,6 +22,7 @@ export class Quests {
           ["niebezpieczne", "bezpieczne", 2],
         ],
         odpowiedz: 1,
+        tresc: "Symbol kłódki        oznacza połączenie:",
       },
       {
         id: 2,
@@ -30,6 +32,7 @@ export class Quests {
           ["paczki", "informacje", 2],
         ],
         odpowiedz: 1,
+        tresc: "Interentem można przesyłać:",
       },
       {
         id: 4,
@@ -39,6 +42,7 @@ export class Quests {
           ["otwarta", "zamknięta", 2],
         ],
         odpowiedz: 1,
+        tresc: "Bezpieczne połączenie Wi-Fi to sieć:",
       },
       {
         id: 5,
@@ -56,6 +60,7 @@ export class Quests {
           ],
         ],
         odpowiedz: 1,
+        tresc: "Login ustala się:",
       },
       {
         id: 7,
@@ -65,6 +70,7 @@ export class Quests {
           ["anonimowość", "emocje", 2],
         ],
         odpowiedz: 1,
+        tresc: "Emotka           wyraża:",
       },
       {
         id: 9,
@@ -74,6 +80,7 @@ export class Quests {
           ["zawsze powinno być takie samo", "powinno być zmieniane często", 2],
         ],
         odpowiedz: 1,
+        tresc: "Hasło:",
       },
       {
         id: 10,
@@ -83,6 +90,7 @@ export class Quests {
           ["strony internetowej", "mailowym", 2],
         ],
         odpowiedz: 1,
+        tresc: "Symbolu @ używa się w adresie:",
       },
       {
         id: 12,
@@ -92,6 +100,7 @@ export class Quests {
           ["węża", "małpa", 2],
         ],
         odpowiedz: 1,
+        tresc: "W Polsce symbol @ oznacza:",
       },
       {
         id: 13,
@@ -101,6 +110,7 @@ export class Quests {
           ["ludzi", "komputery", 2],
         ],
         odpowiedz: 1,
+        tresc: "Sieć Wi-Fi łączy bezprzewodowo:",
       },
       {
         id: 15,
@@ -110,6 +120,7 @@ export class Quests {
           ["nie udostępniasz innym", "udostępniasz innym", 1],
         ],
         odpowiedz: 2,
+        tresc: "Swój login i hasło:",
       },
     ];
   }

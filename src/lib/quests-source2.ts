@@ -3,6 +3,7 @@ interface quizz_pojedyncz {
   pytanie: string;
   odpowiedz: number;
   odpowiedz_text: any[][];
+  tresc: string;
 }
 
 export class Quests2 {
@@ -35,6 +36,7 @@ export class Quests2 {
           ["w XXI wieku", "w XIX wieku", "w XX wieku", 3],
         ],
         odpowiedz: 1,
+        tresc: "Internet powstał:",
       },
       {
         id: 2,
@@ -60,6 +62,7 @@ export class Quests2 {
           ],
         ],
         odpowiedz: 1,
+        tresc: "W e-mailu od niezananej osoby jest link, w który:",
       },
       {
         id: 4,
@@ -85,6 +88,7 @@ export class Quests2 {
           ],
         ],
         odpowiedz: 1,
+        tresc: "Hasła do wielu aplikacji:",
       },
       {
         id: 5,
@@ -95,6 +99,7 @@ export class Quests2 {
           ["obraźliwy", "złośliwy", "miły", 3],
         ],
         odpowiedz: 1,
+        tresc: "Pod zdjęciem, które ci się podoba zostawiasz komentarz:",
       },
       {
         id: 7,
@@ -120,6 +125,7 @@ export class Quests2 {
           ],
         ],
         odpowiedz: 1,
+        tresc: "Gdy chcesz umieścić zdjęcie koleżanki w internecie, to:",
       },
       {
         id: 9,
@@ -130,6 +136,7 @@ export class Quests2 {
           ["bez szyfrowania", "bardzo szybkie", "szyfrowane", 3],
         ],
         odpowiedz: 1,
+        tresc: '"HTTPS"oznacza bezpieczne połączenie:',
       },
       {
         id: 10,
@@ -155,6 +162,7 @@ export class Quests2 {
           ],
         ],
         odpowiedz: 1,
+        tresc: "Na koniec pracy w siecie zawsze:",
       },
       {
         id: 12,
@@ -165,6 +173,7 @@ export class Quests2 {
           ["anonimowy", "nieznany", "uprzejmy", 3],
         ],
         odpowiedz: 1,
+        tresc: "Użytkownik w internecie powinien być:",
       },
       {
         id: 13,
@@ -190,6 +199,7 @@ export class Quests2 {
           ],
         ],
         odpowiedz: 1,
+        tresc: "Swój numer telefonu:",
       },
       {
         id: 15,
@@ -215,6 +225,7 @@ export class Quests2 {
           ],
         ],
         odpowiedz: 1,
+        tresc: "Nie wolno",
       },
     ];
   }

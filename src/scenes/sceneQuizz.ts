@@ -4,6 +4,7 @@ import { Quests } from "../lib/quests-source";
 
 export class SceneQuizz extends Scene {
   plansza_pod_quizz: Phaser.GameObjects.Image;
+  tresc_pytanie: Phaser.GameObjects.Text;
   odpowiedz1_text: Phaser.GameObjects.Text;
   odpowiedz2_text: Phaser.GameObjects.Text;
   odpowiedz1: Phaser.GameObjects.Image;
@@ -42,7 +43,16 @@ export class SceneQuizz extends Scene {
 
     //dodawanie assetów
     this.plansza_pod_quizz = this.add
-      .image(700, 550, quizz_assets_data.tab_quizz[0].pytanie)
+      .image(700, 550, quizz_assets_data.tab_quizz[4].pytanie)
+      .setAlpha(0);
+
+    this.tresc_pytanie = this.add
+      .text(182, 355, quizz_assets_data.tab_quizz[4].tresc, {
+        fontSize: "42px",
+        fontStyle: "bold",
+        fontFamily: "Proxima Nova",
+        color: "#1d3850",
+      })
       .setAlpha(0);
 
     // używam tego fontu - https://www.cdnfonts.com/proxima-nova-condensed.font
@@ -125,6 +135,11 @@ export class SceneQuizz extends Scene {
             //quizz_assets_data.pokaz_zadanie(sceneB.krok_gracz1_na_planszy)[0]
             quizz_assets_data.pokaz_zadanie_2(sceneB.krok_gracz1_na_planszy)
               .pytanie
+          );
+          this.tresc_pytanie.setAlpha(1);
+          this.tresc_pytanie.setText(
+            quizz_assets_data.pokaz_zadanie_2(sceneB.krok_gracz1_na_planszy)
+              .tresc
           );
           this.odpowiedz1_text.setText(
             quizz_assets_data.pokaz_zadanie_2(sceneB.krok_gracz1_na_planszy)
@@ -241,6 +256,7 @@ export class SceneQuizz extends Scene {
       this.odpowiedz1.setAlpha(0);
       this.odpowiedz2.setAlpha(0);
       this.zaznaczenie.setAlpha(0);
+      this.tresc_pytanie.setAlpha(0);
 
       const powrot_emiter = this.scene.scene.events;
       powrot_emiter.emit("powrot-do-gry1");
