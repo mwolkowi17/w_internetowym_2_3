@@ -90,7 +90,7 @@ export class Quests {
           ["strony internetowej", "mailowym", 2],
         ],
         odpowiedz: 1,
-        tresc: "Symbolu @ używa się w adresie:",
+        tresc: "Symbolu        używa się w adresie:",
       },
       {
         id: 12,
@@ -100,7 +100,7 @@ export class Quests {
           ["węża", "małpa", 2],
         ],
         odpowiedz: 1,
-        tresc: "W Polsce symbol @ oznacza:",
+        tresc: "W Polsce symbol          oznacza:",
       },
       {
         id: 13,

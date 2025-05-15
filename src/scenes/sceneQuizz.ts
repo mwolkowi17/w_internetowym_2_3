@@ -43,11 +43,11 @@ export class SceneQuizz extends Scene {
 
     //dodawanie assetów
     this.plansza_pod_quizz = this.add
-      .image(700, 550, quizz_assets_data.tab_quizz[4].pytanie)
+      .image(700, 550, quizz_assets_data.tab_quizz[7].pytanie)
       .setAlpha(0);
 
     this.tresc_pytanie = this.add
-      .text(182, 355, quizz_assets_data.tab_quizz[4].tresc, {
+      .text(182, 355, quizz_assets_data.tab_quizz[7].tresc, {
         fontSize: "42px",
         fontStyle: "bold",
         fontFamily: "Proxima Nova",
