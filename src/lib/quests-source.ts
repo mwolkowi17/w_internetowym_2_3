@@ -36,7 +36,7 @@ export class Quests {
       },
       {
         id: 4,
-        pytanie: "pytanie3",
+        pytanie: "pytanie2",
         odpowiedz_text: [
           ["zamknięta", "otwarta", 1],
           ["otwarta", "zamknięta", 2],
@@ -46,7 +46,7 @@ export class Quests {
       },
       {
         id: 5,
-        pytanie: "pytanie4",
+        pytanie: "pytanie2",
         odpowiedz_text: [
           [
             "indywidualnie-każda osoba ma swój",
@@ -74,7 +74,7 @@ export class Quests {
       },
       {
         id: 9,
-        pytanie: "pytanie6",
+        pytanie: "pytanie2",
         odpowiedz_text: [
           ["powinno być zmieniane często", "zawsze powinno być takie samo", 1],
           ["zawsze powinno być takie samo", "powinno być zmieniane często", 2],
@@ -104,7 +104,7 @@ export class Quests {
       },
       {
         id: 13,
-        pytanie: "pytanie9",
+        pytanie: "pytanie2",
         odpowiedz_text: [
           ["komputery", "ludzi", 1],
           ["ludzi", "komputery", 2],
@@ -114,7 +114,7 @@ export class Quests {
       },
       {
         id: 15,
-        pytanie: "pytanie10",
+        pytanie: "pytanie2",
         odpowiedz_text: [
           ["udostępniasz innym", "nie udostępniasz innym", 2],
           ["nie udostępniasz innym", "udostępniasz innym", 1],

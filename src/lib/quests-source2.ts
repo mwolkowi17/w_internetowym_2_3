@@ -29,7 +29,7 @@ export class Quests2 {
     this.tab_quizz = [
       {
         id: 1,
-        pytanie: "pytanie1_2",
+        pytanie: "pytanie2",
         odpowiedz_text: [
           ["w XX wieku", "w XIX wieku", "w XXI wieku", 1],
           ["w XIX wieku", "w XX wieku", "w XXI wieku", 2],
@@ -40,7 +40,7 @@ export class Quests2 {
       },
       {
         id: 2,
-        pytanie: "pytanie2_2",
+        pytanie: "pytanie2",
         odpowiedz_text: [
           [
             "nie klikasz, usuwasz ten mail",
@@ -66,7 +66,7 @@ export class Quests2 {
       },
       {
         id: 4,
-        pytanie: "pytanie3_2",
+        pytanie: "pytanie2",
         odpowiedz_text: [
           [
             "muszą być różne",
@@ -92,7 +92,7 @@ export class Quests2 {
       },
       {
         id: 5,
-        pytanie: "pytanie4_2",
+        pytanie: "pytanie2",
         odpowiedz_text: [
           ["miły", "obraźliwy", "złośliwy", 1],
           ["obraźliwy", "miły", "złośliwy", 2],
@@ -103,7 +103,7 @@ export class Quests2 {
       },
       {
         id: 7,
-        pytanie: "pytanie5_2",
+        pytanie: "pytanie2",
         odpowiedz_text: [
           [
             "pytasz ją o zgodę",
@@ -129,7 +129,7 @@ export class Quests2 {
       },
       {
         id: 9,
-        pytanie: "pytanie6_2",
+        pytanie: "pytanie2",
         odpowiedz_text: [
           ["szyfrowane", "bez szyfrowania", "bardzo szybkie", 1],
           ["bez szyfrowania", "szyfrowane", "bardzo szybkie", 2],
@@ -140,7 +140,7 @@ export class Quests2 {
       },
       {
         id: 10,
-        pytanie: "pytanie7_2",
+        pytanie: "pytanie2",
         odpowiedz_text: [
           [
             "wylogowujesz się z portali, poczty i innych \naplikacji sieciowych",
@@ -166,7 +166,7 @@ export class Quests2 {
       },
       {
         id: 12,
-        pytanie: "pytanie8_2",
+        pytanie: "pytanie2",
         odpowiedz_text: [
           ["uprzejmy", "anonimowy", "nieznany", 1],
           ["anonimowy", "uprzejmy", "nieznany", 2],
@@ -177,7 +177,7 @@ export class Quests2 {
       },
       {
         id: 13,
-        pytanie: "pytanie9_2",
+        pytanie: "pytanie2",
         odpowiedz_text: [
           [
             "nie przekazujesz nieznajomym",
@@ -203,7 +203,7 @@ export class Quests2 {
       },
       {
         id: 15,
-        pytanie: "pytanie10_2",
+        pytanie: "pytanie2",
         odpowiedz_text: [
           [
             "zamieszczać w internecie zdjęć osób bez ich zgody",
