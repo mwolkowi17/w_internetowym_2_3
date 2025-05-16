@@ -1,6 +1,6 @@
 {
   "assetRoot": "assets",
-  "totalSize": 12175640,
+  "totalSize": 12236662,
   "assets": {
     "image": {
       "phaser_logo": { "file": "phaser_logo.png", "size": 377788 },
@@ -218,7 +218,8 @@
       "dobra_odp": { "file": "Dobra_odp.mp3", "size": 77740 },
       "zla_odp": { "file": "zla_odp.mp3", "size": 7523 },
       "fanfary": { "file": "Fanfary_wygrana_gra.mp3", "size": 165120 },
-      "przegrana_gra": { "file": "przegrana_gra.mp3", "size": 56832 }
+      "przegrana_gra": { "file": "przegrana_gra.mp3", "size": 56832 },
+      "ruch_do_tylu": { "file": "wrong_move1.mp3", "size": 61022 }
     }
   }
 }

@@ -5,6 +5,10 @@ export class SceneTrap extends Scene {
   plansza_pod_trap: Phaser.GameObjects.Image;
   dalej_powrot_do_gry: Phaser.GameObjects.Image;
   enter_key_trap: Phaser.Input.Keyboard.Key;
+  dzwiek_pulapka:
+    | Phaser.Sound.NoAudioSound
+    | Phaser.Sound.HTML5AudioSound
+    | Phaser.Sound.WebAudioSound;
 
   constructor() {
     super({
@@ -25,6 +29,9 @@ export class SceneTrap extends Scene {
       .setInteractive();
     metodyPomocnicze.myEventPoinerOverOut(this.dalej_powrot_do_gry);
 
+    //sound add
+    this.dzwiek_pulapka = this.sound.add("ruch_do_tylu", { loop: false });
+
     //eventy
     const akcja_powrot_do_gry = () => {
       this.plansza_pod_trap.setAlpha(0);
@@ -36,6 +43,7 @@ export class SceneTrap extends Scene {
     //listener emiter-wpadka
     this.scene.get("GameSceneMain1").events.on("emiter-wpadka", () => {
       console.log("emiter-wpadka!");
+      this.dzwiek_pulapka.play();
       this.plansza_pod_trap.setAlpha(1);
       this.dalej_powrot_do_gry.setAlpha(1);
 
